@@ -1,6 +1,6 @@
-package com.mahamdy.licence.encryptors;
+package com.mahamdy.licenceGenerator.encryptors;
 
-import com.mahamdy.licence.utilities.Replacer;
+import com.mahamdy.licenceGenerator.utilities.Replacer;
 
 public class SimpleEncryptor extends Replacer {
 

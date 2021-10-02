@@ -1,4 +1,4 @@
-package com.mahamdy.licence.encryptors;
+package com.mahamdy.licenceGenerator.encryptors;
 
 import sun.misc.BASE64Encoder;
 

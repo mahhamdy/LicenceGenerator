@@ -1,4 +1,4 @@
-package com.mahamdy.licence.utilities;
+package com.mahamdy.licenceGenerator.utilities;
 
 public class Replacer {
     public final char[][] alphaNumeric = new char[85][2];

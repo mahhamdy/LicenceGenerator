@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8982081f-790c-492c-b6a5-0931f8372bff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/LicenceGenerator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licence-generator/licence-generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licence-generator/src/main/java/com/mahamdy/licence/encryptors/AESEncryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licence-generator/src/main/java/com/mahamdy/licence/encryptors/SimpleEncryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licence-generator/src/main/java/com/mahamdy/licence/encryptors/TripleDESEncryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licence-generator/src/main/java/com/mahamdy/licence/utilities/Replacer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licence-generator/src/test/java/com/mahamdy/licence/LicenceGeneratorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8982081f-790c-492c-b6a5-0931f8372bff" name="Default Changelist" comment="Add the 3 Encryptors" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,12 +51,12 @@
       <module name="licence-generator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mahamdy.licence.*" />
+          <option name="PATTERN" value="com.mahamdy.licenceGenerator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mahamdy.licence" />
-      <option name="MAIN_CLASS_NAME" value="com.mahamdy.licence.LicenceGeneratorTest" />
+      <option name="PACKAGE_NAME" value="com.mahamdy.licenceGenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.mahamdy.licenceGenerator.LicenceGeneratorTest" />
       <option name="METHOD_NAME" value="shouldDecryptLicenceAtFullCylce" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -95,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1633202417355</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add the 3 Encryptors">
+      <created>1633211209462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633211209462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add the 3 Encryptors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the 3 Encryptors" />
   </component>
 </project>
